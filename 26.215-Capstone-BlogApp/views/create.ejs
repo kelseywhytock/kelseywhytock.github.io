@@ -1,0 +1,20 @@
+<%- include("partials/header.ejs") %>
+
+<h1>Add New Post</h1>
+
+<form name="postSubmission" action="/create" method="POST" class="container">
+
+  <label for="articleTitle">Title:</label><br />
+  <input type="text" id="articleTitle" name="articleTitle" class="form-control" value="" required><br />
+
+  <label for="articleBody">Content:</label><br />
+  <textarea type="text" id="articleBody" name="articleBody" class="form-control" value="" required></textarea><br />
+
+  <input type="hidden" id="randomNumberField" name="postID"><br />
+
+  <button type="submit" class="btn btn-secondary">Submit</button>
+</form>
+
+
+
+ <%- include("partials/footer.ejs") %>

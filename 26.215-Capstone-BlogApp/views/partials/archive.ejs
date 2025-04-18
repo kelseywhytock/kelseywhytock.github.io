@@ -1,0 +1,15 @@
+<div class="post-archive">
+  <% if (posts.length === 0) {  %>
+    <p>No posts available.</p>
+  <% } %>
+
+  <% posts.forEach(function(post) { %>
+    <hr />
+      <p class="pubDate"><em><%= post.date %></em> </p>
+      <h2 class="post-title"><a href="/post/<%= post.id %>">
+          <%= post.title %>
+      </a></h2>
+      <p class="post-excerpt"><%= post.content %></p>
+  <% }) %>
+
+</div>
