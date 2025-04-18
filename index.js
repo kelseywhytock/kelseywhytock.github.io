@@ -27,13 +27,13 @@ var modalInfo = {
     title: "Band Name Generator",
     info: "Udemy – The Complete Full-Stack Web Development Bootcamp – Project 25.213 | Node.js, Express.js, EJS",
     link: "25.213-Band-Generator",
-    github: "#"
+    github: "https://github.com/kelseywhytock/kelseywhytock.github.io/tree/main/25.213-Band-Generator"
   },
   6: {
     title: "Capstone - Blog Web App",
     info: "Udemy – The Complete Full-Stack Web Development Bootcamp – Project 26.215 | Node.js, Express.js, EJS",
     link: "26.215-Capstone-BlogApp",
-    github: "#"
+    github: "https://github.com/kelseywhytock/kelseywhytock.github.io/tree/main/26.215-Capstone-BlogApp"
   }
 };
 
