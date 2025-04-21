@@ -35,6 +35,12 @@ var modalInfo = {
     link: "26.215-Capstone-BlogApp",
     github: "https://github.com/kelseywhytock/kelseywhytock.github.io/tree/main/26.215-Capstone-BlogApp"
   }
+  7: {
+    title: "API Authorization Exercise",
+    info: "Udemy – The Complete Full-Stack Web Development Bootcamp – Project 28.229 | Node.js, Express.js, EJS",
+    link: "28.229-API-Authentication",
+    github: "https://github.com/kelseywhytock/kelseywhytock.github.io/tree/main/28.229-API-Authentication"
+  }
 };
 
 // Get the modal
