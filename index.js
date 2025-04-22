@@ -31,7 +31,7 @@ var modalInfo = {
   },
   6: {
     title: "Capstone - Blog Web App",
-    info: "Udemy – The Complete Full-Stack Web Development Bootcamp – Project 26.215 | Node.js, Express.js, EJS",
+    info: "Udemy – The Complete Full-Stack Web Development Bootcamp – Project 26.215 | Node.js, Express.js, EJS <br /><br /><strong>Project Description: </strong>The goal of this project is to create a Blog web application using Node.js, Express.js, and EJS. The application will allow users to create and view blog posts. Posts will not persist between sessions as no database will be used in this version of the application. Styling will be an important aspect of this project to ensure a good user experience.",
     link: "26.215-Capstone-BlogApp",
     github: "https://github.com/kelseywhytock/kelseywhytock.github.io/tree/main/26.215-Capstone-BlogApp"
   },
@@ -40,6 +40,12 @@ var modalInfo = {
     info: "Udemy – The Complete Full-Stack Web Development Bootcamp – Project 28.229 | Node.js, Express.js, EJS",
     link: "28.229-API-Authentication",
     github: "https://github.com/kelseywhytock/kelseywhytock.github.io/tree/main/28.229-API-Authentication"
+  },
+  8: {
+    title: "Glam Up My Markup: Winter Solstice",
+    info: "Dev.io – December 2024 Dev Challenge | JavaScript, CSS <br /><br /><strong>Challenge Instructions:</strong> Use CSS and JavaScript ONLY to make the starter HTML markup beautiful, interactive, and useful.",
+    link: "Dev.io-Glam-Up-My-Markup/index.html",
+    github: "https://dev.to/challenges/frontend-2024-12-04"
   }
 };
 

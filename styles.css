@@ -1,6 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+html {
+     --s: 144px;
+     /* control the size*/
+     --c1: #b9b9b9;
+     --c2: #dcdcdc;
+     --c3: #fafafa;
+
+     background:
+          conic-gradient(from 75deg, var(--c1) 15deg, var(--c2) 0 30deg, #0000 0 180deg,
+               var(--c2) 0 195deg, var(--c1) 0 210deg, #0000 0) calc(var(--s)/2) calc(.5*var(--s)/tan(30deg)),
+          conic-gradient(var(--c1) 30deg, var(--c3) 0 75deg, var(--c1) 0 90deg, var(--c2) 0 105deg,
+               var(--c3) 0 150deg, var(--c2) 0 180deg, var(--c3) 0 210deg, var(--c1) 0 256deg,
+               var(--c2) 0 270deg, var(--c1) 0 286deg, var(--c2) 0 331deg, var(--c3) 0);
+     background-size: var(--s) calc(var(--s)/tan(30deg));
+}
 
 body {
+     font-family: "Montserrat", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 300;
+     font-style: normal;
      -webkit-box-sizing: border-box;
      box-sizing: border-box;
      margin: 0;
@@ -12,15 +30,50 @@ section {
      flex-direction: column;
      align-items: center;
      min-height: 100vh;
-     background-color: #F5F5F5;
+     background-color: #f5f5f5cf;
      font-family: Roboto;
      padding-bottom: 3rem;
 }
 
+a {
+     color: initial;
+     text-decoration: none;
+}
+
+a:hover,
+a:focus {
+     text-decoration: underline;
+}
+
+.box {
+     padding: 2rem;
+     max-width: 14rem;
+     background-color: rgba(0, 152, 137, 0.425);
+     border-radius: 4px;
+     max-width: 50rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+     text-align: center;
+}
+
 h1 {
+     font-family: "Special Gothic Expanded One", sans-serif;
      font-size: 40pt;
      font-weight: 500;
      color: #363638;
+     position: relative;
+}
+
+h1 svg {
+     max-width: 25px;
+}
+
+h2 {
+     font-weight: 300;
 }
 
 .container {
@@ -119,7 +172,7 @@ img {
      margin: 5% auto;
      box-sizing: border-box;
      width: 700px;
-     max-height: 714px;
+     max-height: 90vh;
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
@@ -149,7 +202,7 @@ img {
      padding: 25px;
      text-align: left;
      position: relative;
-     height: 264px;
+     height: 350px;
      box-sizing: border-box;
      border-top: 1px solid #363638;
 }

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+
+html {
+     scroll-behavior: smooth;
+}
+
+body {
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header #main-nav {
+     background-color: #ffffff;
+     text-align: center;
+     padding: 1em 0;
+     border-top: 1px solid #333e58;
+     border-bottom: 1px solid #333e58;
+}
+
+header #main-nav a {
+     color: #121f43;
+     padding: 0 1.5vw 2px 1.5vw;
+     line-height: 1.7;
+     font-size: 95%;
+     text-decoration: none;
+     text-transform: uppercase;
+}
+
+header #main-nav a:hover {
+     color: #1e3d90;
+     text-decoration: none;
+     border-bottom: 2px solid #d4c872;
+}
+
+header ul,
+header ul li,
+footer ul,
+footer ul li {
+     display: inline-block;
+}
+
+header h1 {
+     background-image: url('images/night-pixabay.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center 15%;
+     color: #ffffff;
+     padding: 8% 15% 35% 15%;
+     margin: 0;
+}
+
+footer {
+     background: #333e58;
+     padding: 1em 4em;
+}
+
+footer,
+footer a {
+     color: #ffffff;
+}
+
+footer p {
+     font-size: 12px;
+}
+
+#footer-nav {
+     text-align: center;
+}
+
+#footer-nav a {
+     margin: 0 1em;
+}
+
+h1 {
+     font-weight: 400;
+     font-style: normal;
+     font-size: 3vw;
+     line-height: 1.5;
+     text-align: center;
+}
+
+h1 span {
+     font-family: "Lavishly Yours", serif;
+     font-size: 12vw;
+     line-height: 0.9;
+     display: block;
+     text-shadow: 0px 0px 15px #ccc866;
+}
+
+section {
+     padding: 1em 4em;
+}
+
+#introduction {
+     background: #dce5ff;
+}
+
+#hemispheres article {
+     width: 50%;
+     float: left;
+     padding: 1em 2em;
+     margin: 1em;
+     background-color: #333e58;
+     color: #fff;
+     border-radius: 10px;
+}
+
+#hemispheres:after {
+     clear: both;
+     display: table;
+     content: "";
+}
+
+#hemispheres img {
+     max-width: 300px;
+     clear: both;
+     display: block;
+     margin: 0 auto;
+     padding: 1em 2em;
+}
+
+@media screen and (max-width: 786px) {
+     h1 {
+          font-size: 25px;
+     }
+
+     h1 span {
+          font-size: 55px;
+     }
+}
