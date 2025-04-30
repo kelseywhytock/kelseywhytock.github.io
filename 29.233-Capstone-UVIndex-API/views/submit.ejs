@@ -1,0 +1,47 @@
+<%- include("partials/header.ejs") %>
+
+     <% if (result) { %>
+          <div class="answer">
+
+               <% var currentUv = ""; %>
+               <% if(result.uv <= 3) {
+                    currentUv = "low";
+               } else if(result.uv <= 6) {
+                    currentUv = "moderate";
+               } else if(result.uv <= 8) {
+                    currentUv = "high";
+               } else if(result.uv <= 11) {
+                    currentUv = "very-high";
+               } else if(result.uv > 11) {
+                    currentUv = "extreme";
+               } %>
+               <p class="data"><strong>Current UV Index:</strong> <br /><%= result.uv %></p>
+               <div class="uv-flag <%= currentUv %>"><%= currentUv %></div>
+               <% console.log(result.uv); %>
+
+               <% var uvMax = ""; %>
+               <% if(result.uv_max <= 3) {
+                    uvMax = "low";
+               } else if(result.uv_max <= 6) {
+                    uvMax = "moderate";
+               } else if(result.uv_max <= 8) {
+                    uvMax = "high";
+               } else if(result.uv_max <= 11) {
+                    uvMax = "very-high";
+               } else if(result.uv_max > 11) {
+                    uvMax = "extreme";
+               } %>
+               <p class="data"><strong>UV Max Today:</strong> <br /><%= result.uv_max %></p>
+               <div class="uv-flag <%= uvMax %>"><%= uvMax %></div>
+               <% console.log(result.uv_max); %>
+          </div>
+
+          <% if(result.uv >= 3) { %>
+               <h2>Yes you do – Wear sunscreen!</h2>
+          <% } else { %>
+               <h2>You're good to go today!</h2>
+          <% } %>
+     <% } %>
+
+
+ <%- include("partials/footer.ejs") %>

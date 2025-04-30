@@ -1,0 +1,13 @@
+<%- include("partials/header.ejs") %>
+
+     <p>Enter your exact location to find out: </p>
+
+     <form action="/submit" method="POST">
+          <label for="lat">Latitude:</label><br />
+          <input type="text" id="lat" name="lat" value="41.8120869359237" required><br /><br />
+          <label for="lng">Longitude:</label><br />
+          <input type="text" id="lng" name="lng" value="-71.45493735660091" required><br /><br />
+          <button type="submit">Check</button>
+     </form>
+
+ <%- include("partials/footer.ejs") %>
