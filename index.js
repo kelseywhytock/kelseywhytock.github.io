@@ -46,19 +46,19 @@ var modalInfo = {
     info: "Dev.io – December 2024 Dev Challenge | JavaScript, CSS <br /><br /><strong>Challenge Instructions:</strong> Use CSS and JavaScript ONLY to make the starter HTML markup beautiful, interactive, and useful.",
     link: "Dev.io-Glam-Up-My-Markup/index.html",
     github: "https://dev.to/challenges/frontend-2024-12-04"
-  }
+  },
   9: {
     title: "REST APIs Exercise",
     info: "Udemy – The Complete Full-Stack Web Development Bootcamp – Project 28.230 |  APIs, Node.js, Express.js, EJS",
     link: "28.230-REST-APIs",
     github: "https://github.com/kelseywhytock/kelseywhytock.github.io/tree/main/28.230-REST-APIs"
-  }
+  },
   10: {
     title: "Secrets Project",
     info: "Udemy – The Complete Full-Stack Web Development Bootcamp – Project 28.321 |  APIs, Node.js, Express.js, EJS, Axios",
     link: "28.321-Secrets-Project",
     github: "https://github.com/kelseywhytock/kelseywhytock.github.io/tree/main/28.321-Secrets-Project"
-  }
+  },
   11: {
     title: "Capstone: UV Index API Project",
     info: "Udemy – The Complete Full-Stack Web Development Bootcamp – Project 29.233 |  APIs, Node.js, Express.js, EJS, Axios",
