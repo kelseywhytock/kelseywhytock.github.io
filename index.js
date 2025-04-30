@@ -55,13 +55,13 @@ var modalInfo = {
   }
   10: {
     title: "Secrets Project",
-    info: "Udemy – The Complete Full-Stack Web Development Bootcamp – Project 28.321 |  APIs, Node.js, Express.js, EJS",
+    info: "Udemy – The Complete Full-Stack Web Development Bootcamp – Project 28.321 |  APIs, Node.js, Express.js, EJS, Axios",
     link: "28.321-Secrets-Project",
     github: "https://github.com/kelseywhytock/kelseywhytock.github.io/tree/main/28.321-Secrets-Project"
   }
   11: {
     title: "Capstone: UV Index API Project",
-    info: "Udemy – The Complete Full-Stack Web Development Bootcamp – Project 29.233 |  APIs, Node.js, Express.js, EJS",
+    info: "Udemy – The Complete Full-Stack Web Development Bootcamp – Project 29.233 |  APIs, Node.js, Express.js, EJS, Axios",
     link: "29.233-Capstone-UVIndex-API",
     github: "https://github.com/kelseywhytock/kelseywhytock.github.io/tree/main/29.233-Capstone-UVIndex-API"
   }

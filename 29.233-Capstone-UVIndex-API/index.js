@@ -5,7 +5,7 @@ import bodyParser from "body-parser";
 import fetch from "node-fetch";
 
 const app = express();
-const port = 4000;
+const port = 3000;
 const API_URL = "https://api.openuv.io/api/v1/uv";
 
 app.use(express.static("public"));
